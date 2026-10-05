@@ -1,0 +1,785 @@
+%-*-latex-*-
+
+\documentclass[a4paper,11pt]{article}
+
+% Language and fonts
+%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\input{dnmacs.tex}
+\pagestyle{empty}
+
+\begin{document}
+\vspace*{-10mm}
+{\centerline {\Large Alphabet devan\={a}gar\={\i}}}
+
+\bigskip \bigskip \bigskip
+
+\noindent
+\begin{tabular}{|c||p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|p{5mm}|}
+  \hline
+  \raisebox{-5mm}{Voyelles} &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig a} \\[2mm] {\bf a} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig aA} \\[2mm] {\bf \=a} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig i} \\[2mm] {\bf i} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig I} \\[2mm] {\bf \={\i}} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig u} \\[2mm] {\bf u} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig U} \\[2mm] {\bf \=u} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ^^[} \\[2mm] {\bf \d{r}} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ^^Q} \\[2mm] {\bf \d{\=r}} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ^^X} \\[2mm] {\bf \d{l}} \end{tabular}}}
+    &
+    \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ^^Y} \\[2mm] {\bf \d{\=l}} \end{tabular}}}
+  \\[9mm] \hline \hline
+  \raisebox{-5mm}{Diphtongues} &
+     &
+     \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig e} \\[2mm] {\bf e} \end{tabular}}}
+     & &
+     \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig e\?} \\[2mm] {\bf ai} \end{tabular}}}
+     & &
+     \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ao} \\[2mm] {\bf o} \end{tabular}}}
+     & &
+     \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig aO} \\[2mm] {\bf au} \end{tabular}}}
+     & &
+\\[9mm] \hline
+\end{tabular}
+
+\bigskip \bigskip \bigskip
+
+\noindent
+\begin{tabular}{|c||p{12mm}|p{12mm}|p{12mm}|p{12mm}|p{12mm}|}
+  \hline
+  & \multicolumn{5}{|c|}{Consonnes} \\ \cline{2-6}
+  & \multicolumn{2}{|c|}{Sourdes}
+  & \multicolumn{3}{|c|}{Sonores} \\ \cline{2-6}
+  & \multicolumn{4}{|c|}{Occlusives}
+  & \multicolumn{1}{|c|}{Nasales} \\ \cline{2-6}
+  & \multicolumn{1}{|c|}{Simples}
+  & \multicolumn{1}{|c|}{Aspirées}
+  & \multicolumn{1}{|c|}{Simples}
+  & \multicolumn{1}{|c|}{Aspirées} & \\
+  \hline \hline
+  \raisebox{-5mm}{Gutturales}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig k} \\[2mm] {\bf ka} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig K} \\[2mm] {\bf kha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig g} \\[2mm] {\bf ga} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig G} \\[2mm] {\bf gha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig R} \\[2mm] {\bf \.{n}a} \end{tabular}}}
+  \\[9mm] \hline
+  \raisebox{-5mm}{Palatales}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig c} \\[2mm] {\bf ca} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig C} \\[2mm] {\bf cha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig j} \\[2mm] {\bf ja} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig J} \\[2mm] {\bf jha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig ^^Z} \\[2mm] {\bf \~{n}a} \end{tabular}}} \\[9mm] \hline
+  \raisebox{-5mm}{Cérébrales}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig V} \\[2mm] {\bf \d{t}a} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig W} \\[2mm] {\bf \d{t}ha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig X} \\[2mm] {\bf \d{d}a} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig Y} \\[2mm] {\bf \d{d}ha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig Z} \\[2mm] {\bf \d{n}a} \end{tabular}}} \\[9mm] \hline
+  \raisebox{-5mm}{Dentales}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig t} \\[2mm] {\bf ta} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig T} \\[2mm] {\bf tha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig d} \\[2mm] {\bf da} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig D} \\[2mm] {\bf dha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig n} \\[2mm] {\bf na} \end{tabular}}} \\[9mm]
+\hline
+\raisebox{-5mm}{Labiales}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig p} \\[2mm] {\bf pa} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig P} \\[2mm] {\bf pha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig b} \\[2mm] {\bf ba} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig B} \\[2mm] {\bf bha} \end{tabular}}}
+  &
+  \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig m} \\[2mm] {\bf ma} \end{tabular}}} \\[9mm]
+\hline
+\end{tabular}
+
+\bigskip \bigskip \bigskip
+
+\noindent
+\begin{tabular}{|c|c||p{16mm}|p{16mm}|p{16mm}|p{16mm}|p{16mm}|}
+\hline
+& & \multicolumn{1}{|c|}{Gutturales} & \multicolumn{1}{|c|}{Palatales}
+& \multicolumn{1}{|c|}{Cérébrales} & \multicolumn{1}{|c|}{Dentales}
+& \multicolumn{1}{|c|}{Labiales} \\ \hline \hline
+\raisebox{-5mm}{Semi-voyelles} & \raisebox{-5mm}{Sonores} &
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig y} \\[2mm] {\bf ya} \end{tabular}}}
+&\raisebox{-5mm}
+ {\centerline {\begin{tabular}{c}{\dn \dnbig r} \\[2mm] {\bf ra} \end{tabular}}}
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig l} \\[2mm] {\bf la} \end{tabular}}}
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig v} \\[2mm] {\bf va} \end{tabular}}} \\[9mm]
+\hline \hline
+\raisebox{-5mm}{Sifflantes}
+&
+\raisebox{-5mm}{Sourdes}
+&
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig f} \\[2mm] {\bf \'{s}a} \end{tabular}}}
+&\raisebox{-5mm}
+ {\centerline {\begin{tabular}{c}{\dn \dnbig q} \\[2mm] {\bf \d{s}a} \end{tabular}}}
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig s} \\[2mm] {\bf sa} \end{tabular}}}
+& \\[9mm] \cline{2-7}
+aspirées
+&
+\raisebox{-5mm}{Sonores}
+&
+ \raisebox{-5mm}{\centerline {\begin{tabular}{c}{\dn \dnbig h} \\[2mm] {\bf ha} \end{tabular}}}
+& & & & \\[9mm] \hline
+\end{tabular}
+
+\newpage
+
+\noindent {\large Voyelles après consonnes} \\
+
+\noindent
+\begin{tabular}{|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|}
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig t}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig tA}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Et}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig tF}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \7{t}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \8{t}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \9{t}}} \\
+\raisebox{-2mm}{\centerline {\bf ta}}
+&
+\raisebox{-2mm}{\centerline {\bf t\=a}}
+&
+\raisebox{-2mm}{\centerline {\bf ti}}
+&
+\raisebox{-2mm}{\centerline {\bf t\={\i}}}
+&
+\raisebox{-2mm}{\centerline {\bf tu}}
+&
+\raisebox{-2mm}{\centerline {\bf t\=u}}
+&
+\raisebox{-2mm}{\centerline {\bf t\d{r}}} \\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \qx{t}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \qy{t}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \qz{t}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig t\?}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig t\4}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig to}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig tO}} \\
+\raisebox{-2mm}{\centerline {\bf t\d{\=r}}}
+&
+\raisebox{-2mm}{\centerline {\bf t\d{l}}}
+&
+\raisebox{-2mm}{\centerline {\bf t\d{\=l}}}
+&
+\raisebox{-2mm}{\centerline {\bf te}}
+&
+\raisebox{-2mm}{\centerline {\bf tai}}
+&
+\raisebox{-2mm}{\centerline {\bf to}}
+&
+\raisebox{-2mm}{\centerline {\bf tau}} \\[3mm]
+\hline
+\end{tabular}
+
+\bigskip \bigskip \bigskip
+
+\noindent {\large Exceptions} \\
+
+\noindent
+\begin{tabular}{|p{8mm}|p{8mm}|p{8mm}|}
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig z}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig !}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E3w}} \\
+\raisebox{-2mm}{\centerline {\bf ru}}
+&
+\raisebox{-2mm}{\centerline {\bf r\=u}}
+&
+\raisebox{-2mm}{\centerline {\bf h\d{r}}} \\[3mm]
+\hline
+\end{tabular}
+
+\bigskip \bigskip \bigskip
+
+\noindent {\large Ligatures} \\
+
+\noindent
+\begin{tabular}{|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|}
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C3w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ?K}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ?c}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ?Z}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C4w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C5w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{\3C4w}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3FCw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C6w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C7w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E6w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C9w}} \\
+\raisebox{-2mm}{\centerline {\bf kka}}
+&
+\raisebox{-2mm}{\centerline {\bf kkha}}
+&
+\raisebox{-2mm}{\centerline {\bf kca}}
+&
+\raisebox{-2mm}{\centerline {\bf k\d{n}a}}
+&
+\raisebox{-2mm}{\centerline {\bf kta}}
+&
+\raisebox{-2mm}{\centerline {\bf ktya}}
+&
+\raisebox{-2mm}{\centerline {\bf ktra}}
+&
+\raisebox{-2mm}{\centerline {\bf ktrya}}
+&
+\raisebox{-2mm}{\centerline {\bf ktva}}
+&
+\raisebox{-2mm}{\centerline {\bf kna}}
+&
+\raisebox{-2mm}{\centerline {\bf knya}}
+&
+\raisebox{-2mm}{\centerline {\bf kma}} \\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C8w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \387w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E7w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CAw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CBw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CCw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig "}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \#m}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \#y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \#v}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Hy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{K}}} \\
+\raisebox{-2mm}{\centerline {\bf kya}}
+&
+\raisebox{-2mm}{\centerline {\bf kra}}
+&
+\raisebox{-2mm}{\centerline {\bf krya}}
+&
+\raisebox{-2mm}{\centerline {\bf kla}}
+&
+\raisebox{-2mm}{\centerline {\bf kva}}
+&
+\raisebox{-2mm}{\centerline {\bf kvya}}
+&
+\raisebox{-2mm}{\centerline {\bf k\d{s}a}}
+&
+\raisebox{-2mm}{\centerline {\bf k\d{s}ma}}
+&
+\raisebox{-2mm}{\centerline {\bf k\d{s}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf k\d{s}va}}
+&
+\raisebox{-2mm}{\centerline {\bf khya}}
+&
+\raisebox{-2mm}{\centerline {\bf khra}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig `y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig g\5}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E9wy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CDw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E8wy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ]m}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ]y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig G\5}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3ACw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3ADw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3AEw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3AFw}}\\
+\raisebox{-2mm}{\centerline {\bf gya}}
+&
+\raisebox{-2mm}{\centerline {\bf gra}}
+&
+\raisebox{-2mm}{\centerline {\bf grya}}
+&
+\raisebox{-2mm}{\centerline {\bf ghna}}
+&
+\raisebox{-2mm}{\centerline {\bf ghnya}}
+&
+\raisebox{-2mm}{\centerline {\bf ghma}}
+&
+\raisebox{-2mm}{\centerline {\bf ghya}}
+&
+\raisebox{-2mm}{\centerline {\bf ghra}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ka}}
+&
+
+\raisebox{-2mm}{\centerline {\bf \.{n}kta}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ktya}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}kya}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B0w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B1w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B2w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BAw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BDw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BEw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BFw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B9w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C0w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BCw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B5w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C1w}}\\
+\raisebox{-2mm}{\centerline {\bf \.{n}k\d{s}a}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}k\d{s}va}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}kha}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}khya}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ga}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}gya}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}gha}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ghya}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ghra}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}\.{n}a}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}na}}
+&
+\raisebox{-2mm}{\centerline {\bf \.{n}ma}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3C2w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CEw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig QC}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Q\6{C}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3CFw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Qm}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Qy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D0w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{C}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig >j}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig >J}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E2w}}\\
+\raisebox{-2mm}{\centerline {\bf \.{n}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf cca}}
+&
+\raisebox{-2mm}{\centerline {\bf ccha}}
+&
+\raisebox{-2mm}{\centerline {\bf cchra}}
+&
+\raisebox{-2mm}{\centerline {\bf c\~na}}
+&
+\raisebox{-2mm}{\centerline {\bf cma}}
+&
+\raisebox{-2mm}{\centerline {\bf cya}}
+&
+\raisebox{-2mm}{\centerline {\bf chya}}
+&
+\raisebox{-2mm}{\centerline {\bf chra}}
+&
+\raisebox{-2mm}{\centerline {\bf jja}}
+&
+\raisebox{-2mm}{\centerline {\bf jjha}}
+&
+\raisebox{-2mm}{\centerline {\bf j\~na}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EAwy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig >m}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig >y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \385w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig >v}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D1w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EBwm}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EBwy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^VC}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D2w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^V>y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D3w}}\\
+\raisebox{-2mm}{\centerline {\bf j\~nya}}
+&
+\raisebox{-2mm}{\centerline {\bf jma}}
+&
+\raisebox{-2mm}{\centerline {\bf jya}}
+&
+\raisebox{-2mm}{\centerline {\bf jra}}
+&
+\raisebox{-2mm}{\centerline {\bf jva}}
+&
+\raisebox{-2mm}{\centerline {\bf \~nca}}
+&
+\raisebox{-2mm}{\centerline {\bf \~ncma}}
+&
+\raisebox{-2mm}{\centerline {\bf \~ncya}}
+&
+\raisebox{-2mm}{\centerline {\bf \~ncha}}
+&
+\raisebox{-2mm}{\centerline {\bf \~nja}}
+&
+\raisebox{-2mm}{\centerline {\bf \~njya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{t}\d{t}a}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D4w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D5w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{W}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B3w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B8w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B4w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B6w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \qq{X}Y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3BBw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3B7w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3E4w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{Y}}}\\
+\raisebox{-2mm}{\centerline {\bf \d{t}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{t}hya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{t}hra}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}ga}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}gya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}gha}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}ghra}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}\d{d}ha}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}ma}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}hya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{d}hra}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^WV}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^WW}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^WX}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^W\3B7w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^W\6{X}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^W\3FBw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^WY}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^WZ}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^Wm}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^Wy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig ^^Wv}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (k}} \\
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{t}a}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{t}ha}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{d}a}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{d}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{d}ra}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{d}rya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{d}ha}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}\d{n}a}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}ma}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}ya}}
+&
+\raisebox{-2mm}{\centerline {\bf \d{n}va}}
+&
+\raisebox{-2mm}{\centerline {\bf tka}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig (\387w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \381w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \382wy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \6{\381w}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \382wv}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (T}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3D7w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (^^Fy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (p}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (\3FEw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (m}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (My}}\\
+\raisebox{-2mm}{\centerline {\bf tkra}}
+&
+\raisebox{-2mm}{\centerline {\bf tta}}
+&
+\raisebox{-2mm}{\centerline {\bf ttya}}
+&
+\raisebox{-2mm}{\centerline {\bf ttra}}
+&
+\raisebox{-2mm}{\centerline {\bf ttva}}
+&
+\raisebox{-2mm}{\centerline {\bf ttha}}
+&
+\raisebox{-2mm}{\centerline {\bf tna}}
+&
+\raisebox{-2mm}{\centerline {\bf tnya}}
+&
+\raisebox{-2mm}{\centerline {\bf tpa}}
+&
+\raisebox{-2mm}{\centerline {\bf tpra}}
+&
+\raisebox{-2mm}{\centerline {\bf tma}}
+&
+\raisebox{-2mm}{\centerline {\bf tmya}}\\[3mm]
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig (y}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig /}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3ECwy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (v}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (s}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (\3DCw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig (-^^Fy}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig Ly}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Bw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EDw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Aw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EEw}} \\
+\raisebox{-2mm}{\centerline {\bf tya}}
+&
+\raisebox{-2mm}{\centerline {\bf tra}}
+&
+\raisebox{-2mm}{\centerline {\bf trya}}
+&
+\raisebox{-2mm}{\centerline {\bf tva}}
+&
+\raisebox{-2mm}{\centerline {\bf tsa}}
+&
+\raisebox{-2mm}{\centerline {\bf tsna}}
+&
+\raisebox{-2mm}{\centerline {\bf tsnya}}
+&
+\raisebox{-2mm}{\centerline {\bf thya}}
+&
+\raisebox{-2mm}{\centerline {\bf dga}}
+&
+\raisebox{-2mm}{\centerline {\bf dgra}}
+&
+\raisebox{-2mm}{\centerline {\bf dgha}}
+&
+\raisebox{-2mm}{\centerline {\bf dghra}}\\[3mm]
+\hline
+\end{tabular}
+
+\newpage
+\begin{tabular}{|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|p{8mm}|}
+\hline
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Cw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \390w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \388w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Fw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \391w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \393w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \389w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Ew}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \394w}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \38Dw}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \qb{d}}}
+&
+\raisebox{-2mm}{\centerline {\dn \dnbig \3EFw}} \\
+\raisebox{-2mm}{\centerline {\bf dda}}
+&
+\raisebox{-2mm}{\centerline {\bf ddya}}
+&
+\raisebox{-2mm}{\centerline {\bf ddha}}
+&
+\raisebox{-2mm}{\centerline {\bf ddhya}}
+&
+\raisebox{-2mm}{\centerline {\bf dna}}
+&
+\raisebox{-2mm}{\centerline {\bf dba}}
+&
+\raisebox{-2mm}{\centerline {\bf dbha}}
+&
+\raisebox{-2mm}{\centerline {\bf dbhya}}
+&
+\raisebox{-2mm}{\centerline {\bf dma}}
+&
+\raisebox{-2mm}{\centerline {\bf dya}}
+&
+\raisebox{-2mm}{\centerline {\bf dra}}
+&
+\raisebox{-2mm}{\centerline {\bf drya}}\\[3mm]
+\hline
+\end{tabular}
+
+
+\end{document}
